@@ -1,0 +1,5 @@
+<div *ngFor="let d of dogs" (click)="goToDetail(d)" style="border:1px solid #ccc;margin:1rem;padding:1rem;cursor:pointer">
+  <img [src]="d.imageUrl" style="max-width:150px"><br>
+  <strong>{{d.name}}</strong><br>
+  {{d.age}} · {{d.gender}}<br>
+</div>

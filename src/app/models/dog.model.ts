@@ -1,0 +1,1 @@
+export interface DogData { name: string; age: string; gender: string; imageUrl: string; description: string; }
